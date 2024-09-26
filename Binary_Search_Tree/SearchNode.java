@@ -73,3 +73,13 @@ class SearchNode{
         }
     }
 }
+
+/*
+    OUTPUT
+    In-order Traversal of the BST:
+    1 2 3 4 7 
+    Node with value 2 found in the BST.
+
+
+
+*/
