@@ -76,12 +76,9 @@ class DeleteNode {
         // Creating a sample BST
         TreeNode root = null;
         int[] value = {5, 3, 6, 2, 4, 7};
-        root = solution.insertIntoBST(root, 5);
-        root = solution.insertIntoBST(root, 3);
-        root = solution.insertIntoBST(root, 6);
-        root = solution.insertIntoBST(root, 2);
-        root = solution.insertIntoBST(root, 4);
-        root = solution.insertIntoBST(root, 7);
+        for(int i : value){
+            root = solution.insertIntoBST(root, i);
+        }
 
         // Display the BST before deletion
         System.out.println("In-order Traversal of the BST before deletion:");
