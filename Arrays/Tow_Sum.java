@@ -4,7 +4,6 @@
 
 import java.util.Arrays;
 public class Tow_Sum {
-    // Method to find two indices that sum up to the target
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -15,8 +14,6 @@ public class Tow_Sum {
         }
         return new int[]{-1, -1};  // Return [-1, -1] if no solution is found
     }
-
-    // Main method to test the twoSum function
     public static void main(String[] args) {
         Tow_Sum solution = new Tow_Sum();
 
