@@ -37,7 +37,7 @@ class Solution {
         root.left.left = new TreeNode(5);
         root.left.right = new TreeNode(15);
         root.right.right = new TreeNode(35);
-
+        
         boolean result = isValid(root, null, null);
         System.out.println("Is the tree a valid BST? " + result);
     }
