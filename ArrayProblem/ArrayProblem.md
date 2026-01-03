@@ -45,6 +45,29 @@ Element appearing more than ⌊n/2⌋ times.
 
 ---
 
+### 6. Factorials of large numbers </>
+Find its factorial. Return a list of integers denoting the digits of factorial of n.
+**Approach:** Array multiply technique
+**Complexity:** O(n) 
+🔗 https://www.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1
+
+---
+
+### 7. Find Peak Element  
+An element greater than its neighbors.  
+**Approach:** Binary Search  
+**Complexity:** O(log n)  
+🔗 https://leetcode.com/problems/find-peak-element/
+
+---
+
+### 8. Subarray Sum Equals K  
+Count subarrays whose sum equals `k`.  
+**Approach:** Prefix Sum + HashMap  
+**Complexity:** O(n)  
+🔗 https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+
 ## 🧠 Focus Areas
 - Array traversal
 - Hashing
