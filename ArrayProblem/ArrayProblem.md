@@ -67,13 +67,13 @@ Count subarrays whose sum equals `k`.
 **Complexity:** O(n)  
 🔗 https://leetcode.com/problems/subarray-sum-equals-k/description/
 
-
+(Coin change, bla bla bla)
 ## 🧠 Focus Areas
 - Array traversal
 - Hashing
 - Two pointers
 - Space optimization
-
+- Interviw Asked problems
 ---
 
 ⭐ Star the repo if helpful | 🚀 More problems coming soon
